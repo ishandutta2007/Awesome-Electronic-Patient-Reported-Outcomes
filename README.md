@@ -1,7 +1,7 @@
 ![Awesome Electronic Patient-Reported Outcomes](assets/banner.svg)
 
 <p center>
-<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Electronic-Patient-Reported-Outcomes/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Electronic-Patient-Reported-Outcomes?style=flat-square" alt="GitHub Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Electronic-Patient-Reported-Outcomes/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Electronic-Patient-Reported-Outcomes?style=flat-square" alt="License"/></a> <a href="https://github.com/ishandutta2007/Awesome-Electronic-Patient-Reported-Outcomes/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Electronic-Patient-Reported-Outcomes/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Electronic-Patient-Reported-Outcomes?style=flat-square" alt="GitHub_Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Electronic-Patient-Reported-Outcomes/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Electronic-Patient-Reported-Outcomes?style=flat-square" alt="License"/></a> <a href="https://github.com/ishandutta2007/Awesome-Electronic-Patient-Reported-Outcomes/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 # 🏥 Awesome Electronic Patient-Reported Outcomes (ePRO)
@@ -62,7 +62,7 @@ This repository serves as a comprehensive developer and clinical researcher dire
 
 Below is a list of mature open-source projects, frameworks, FHIR SDC form renderers, and EDC platforms suitable for constructing self-hosted ePRO data collection systems.
 
-> **Sorted by GitHub Stars (Descending)**
+> **Sorted by GitHub_Stars (Descending)**
 
 * 🌟 **[Fasten Health](https://github.com/fastenhealth/fasten-onprem)** <a href="https://github.com/fastenhealth/fasten-onprem/stargazers"><img src="https://img.shields.io/github/stars/fastenhealth/fasten-onprem?style=social&color=white" alt="Fasten Health Stars"/></a>  
   An open-source, self-hosted personal health record and patient portal system. Connects directly to electronic health record (EHR) systems via SMART on FHIR to pull patient records, medical history, and self-reported outcomes into a unified dashboard. **Go/Vue.js | MIT License**.
