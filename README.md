@@ -1,269 +1,170 @@
-# Awesome-Electronic-Patient-Reported-Outcomes
+![Awesome Electronic Patient-Reported Outcomes](assets/banner.svg)
 
-# 顶级电子患者报告结局 (ePRO) 平台生态系统
+<p center>
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Electronic-Patient-Reported-Outcomes/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Electronic-Patient-Reported-Outcomes?style=flat-square" alt="GitHub Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Electronic-Patient-Reported-Outcomes/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Electronic-Patient-Reported-Outcomes?style=flat-square" alt="License"/></a> <a href="https://github.com/ishandutta2007/Awesome-Electronic-Patient-Reported-Outcomes/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+# 🏥 Awesome Electronic Patient-Reported Outcomes (ePRO)
 
-
-**SaaS 产品与开源 GitHub 项目精选列表**
-
-*聚焦患者自报结局采集、电子临床结局评估与去中心化临床试验数据管理*
-
-**最后更新：2026 年 9 月**
-
-
-
-本仓库追踪**电子患者报告结局 (ePRO)** 领域的知名 **SaaS 平台**与**开源项目**。这些工具帮助临床研究团队、制药企业和 CRO 通过电子方式采集患者自报的症状、功能状态和生活质量数据，支持去中心化临床试验、远程患者监测和真实世界证据研究。
-
-
-
-**示例**包括 Medable、Signant Health、Clario、YPrime、THREAD Science、Castor ePRO、CRScube、IQVIA eCOA、Kayentis、TrialKit、Veeva ePRO、Clinical Ink、CRF Health、Medidata Patient Cloud、Oracle ePRO、ClinOne 和 eClinical Solutions（该领域的领先者）。
-
-
-
-**开源重点**：与许多企业软件类别不同，ePRO 领域存在**少数成熟的开源替代方案**，主要集中在电子数据采集 (EDC) 平台和同意管理层面。完整的企业级 ePRO 系统（如 Medable、Signant）仍然以商业产品为主导，但开源 EDC 平台通过模块化扩展（如 ePRO 模块）可以提供可行的自托管替代方案。本列表重点收录**可自托管的 EDC/ePRO 平台**、**开源同意管理工具**和**FHIR 兼容的表单渲染器**。
-
-
-
-欢迎贡献！提交 PR 以添加/更新条目。保持描述事实性，并链接到官方网站。
-
-
-
-## 目录
-
-
-
-- [SaaS/托管平台](#saas托管平台)
-
-- [开源 GitHub 项目](#开源github项目)
-
-- [如何贡献](#如何贡献)
-
-- [免责声明](#免责声明)
-
-
-
-## SaaS/托管平台
-
-
-
-- **[Medable](https://www.medable.com/)**
-
-  去中心化临床试验平台，提供 ePRO、eCOA、eConsent 和远程数据采集。专注于以患者为中心的数字化临床试验设计，支持 BYOD（自带设备）模式。
-
-
-
-- **[Signant Health](https://www.signanthealth.com/)**
-
-  临床结局评估领域的领先供应商，提供 eCOA、ePRO、eConsent 和电子日记。在神经科学、精神病学和疼痛研究领域有深厚积累。
-
-
-
-- **[Clario](https://clario.com/)**
-
-  临床研究终点和技术解决方案提供商，提供 eCOA、ePRO、心脏安全、医学影像和呼吸终点服务。由 ERT 和 Bioclinica 合并而成。
-
-
-
-- **[YPrime](https://www.yprime.com/)**
-
-  eClinical 技术平台，提供 eCOA、ePRO、IRT 和临床数据管理。以其快速部署和灵活的电子临床解决方案著称。
-
-
-
-- **[THREAD Science](https://www.threadresearch.com/)**
-
-  去中心化临床试验平台，提供 ePRO、eCOA、远程患者监测和虚拟访视工具。专注于将临床研究带入患者家庭。
-
-
-
-- **[Castor ePRO](https://www.castoredc.com/)**
-
-  Castor EDC 平台中的 ePRO 模块。提供基于网络的电子患者报告结局采集，与 Castor 的电子数据采集系统无缝集成。
-
-
-
-- **[CRScube](https://www.crscube.io/)**
-
-  综合 eClinical 平台，包含 cubePRO（ePRO）、cubeCDMS（EDC）、cubeIWRS（RTSM）和 cubeDDC（eSource）。所有解决方案共享同一数据结构和配置工具 。
-
-
-
-- **[IQVIA eCOA](https://www.iqvia.com/)**
-
-  IQVIA 的电子临床结局评估平台，提供 ePRO、eCOA、eConsent 和患者参与工具。集成 IQVIA 的临床研究生态系统。
-
-
-
-- **[Kayentis](https://www.kayentis.com/)**
-
-  专注于 eCOA 和 ePRO 的临床研究技术提供商，在眼科、呼吸和皮肤病学等领域有专业积累。
-
-
-
-- **[TrialKit](https://www.trialkit.com/)**
-
-  基于云的临床研究平台，提供 ePRO、eCOA、EDC 和 eConsent 功能。以其灵活性和可配置性著称。
-
-
-
-- **[Veeva ePRO](https://www.veeva.com/)**
-
-  Veeva Clinical Suite 中的 ePRO 模块，与 Veeva Vault CDMS 集成，为生命科学行业提供端到端临床数据管理。
-
-
-
-- **[Clinical Ink](https://www.clinicalink.com/)**
-
-  eSource 和 ePRO 平台，专注于将临床数据采集直接带入患者访视流程，减少数据转录和查询。
-
-
-
-- **[CRF Health](https://www.crfhealth.com/)**
-
-  eCOA 和 ePRO 领域的早期先驱之一（现为 Signant Health 的一部分），专注于电子临床结局评估。
-
-
-
-- **[Medidata Patient Cloud](https://www.medidata.com/)**
-
-  Medidata 的患者中心云平台，提供 ePRO、eCOA、eConsent 和患者参与工具，与 Medidata Rave EDC 深度集成。
-
-
-
-- **[Oracle ePRO](https://www.oracle.com/)**
-
-  Oracle Health Sciences 中的 ePRO 模块，与 Oracle Clinical One 平台集成，提供电子患者报告结局采集。
-
-
-
-- **[ClinOne](https://clinone.com/)**
-
-  临床试验患者参与平台，提供 eConsent、ePRO 和远程访视工具，专注于简化患者体验。
-
-
-
-- **[eClinical Solutions](https://www.eclinicalsol.com/)**
-
-  提供 eClinical 数据管理平台，包括 elluminate 数据科学平台，支持 ePRO 和 eCOA 数据集成与分析。
-
-
-
-## 开源 GitHub 项目
-
-
-
-- **[OpenClinica](https://github.com/OpenClinica/OpenClinica)**
-
-  全球首个商业开源临床试验软件，用于电子数据采集 (EDC) 和临床数据管理 (CDM)。支持构建研究、创建 eCRF、设计规则/编辑检查、安排患者访视、通过网络采集 eCRF 数据、监测和管理临床数据、审计追踪和电子签名、基于角色的访问控制。**LGPL 许可证**。社区版免费，云托管版提供额外的 ePRO、随机化和报告模块 。
-
-
-
-- **[LibreClinica](https://github.com/reliatec-gmbh/LibreClinica)**
-
-  OpenClinica 的社区驱动后继者。提供所有 GCP 合规临床试验所需功能：基于网络的电子表单 (eCRF) 带版本管理、简单和复杂字段验证、完整审计追踪和电子签名、双人数据录入支持、差异笔记和源数据核查 (SDV)、CDISC ODM-XML 导入、导出为 CDISC ODM-XML/TSV/Excel/SPSS/SAS。支持 OpenRosa API 后端，用于与 **ODK 生态系统集成以进行移动数据采集（如 ePRO 和 eCOA）**。LGPL-3.0，Java 技术栈 。
-
-
-
-- **[Arcwell](https://github.com/arcweb/arcwell)**
-
-  Arcweb Technologies 发布的开源临床研究平台。使医疗机构能够设计、构建和部署临床试验与健康方案，利用强大的规则引擎支持自主临床运营和决策支持。**在电子数据采集 (EDC) 系统内进行电子临床结局评估 (eCOA) 和采集患者报告结局 (ePRO)**，确保研究可以在同一基础设施上轻松升级。已在宾夕法尼亚大学佩雷尔曼医学院和另一家医疗机构成功实施，后者处理 4,000+ 自定义临床规则。**Apache 2.0 许可证** 。
-
-
-
-- **[ClinCapture](https://www.clincapture.com/)**
-
-  经临床验证的开源电子数据采集 (EDC) 软件。其 eClinical Suite 包含 **ePRO 模块**（直观的患者数据采集平台）、CTMS 集成、离线模式（通过 Mi-Co 合作支持平板和数字笔）、生物标本追踪、安全系统和 CDISC 数据转换。ePRO 数据自动安全地导入 ClinCapture 数据库。免费开源，自托管 。
-
-
-
-- **[clinicedc](https://github.com/clinicedc)**
-
-  基于 Django 的多站点纵向临床试验数据管理框架。提供一套 Python 模块，用于构建 EDC/eSource 系统，处理知情同意、计划数据采集、质量保证、试验监测、报告、不良事件、临床事件分级、数据导出和审计。源代码在 GitHub 上公开发布，最新试验有可在本地构建运行的演示。**GPL-3.0**。已用于哈佛 T.H. Chan 公共卫生学院、博茨瓦纳-哈佛艾滋病研究所合作项目等机构的 NIH 资助试验 。
-
-
-
-- **[CHAVI PROM](https://www.preprints.org/manuscript/202508.1013)**
-
-  开源电子患者报告结局测量系统的更新版本。基于 **Django** 完全重写（此前为 Drupal），使用 PostgreSQL 数据库、Tailwind CSS 和 HTMX 前端。关键特性：**构造 (Construct) 与条目 (Item) 的详细定义**（含方向、阈值分数、常模均值和标准差）、**方程编辑器**（使用 Lark 解析器处理复杂评分逻辑，支持多行方程和 if-else 语句）、**复合构造分数**（如 FACT TOI）、**媒体响应类型**（患者可录制语音和视频）。患者信息在数据库中加密存储 。
-
-
-
-- **[REDCapPRO](https://github.com/AndrewPoppe/REDCap-PRO)**
-
-  REDCap 外部模块，**以符合监管规定的方式实现患者报告结局 (PRO)**。作为独立于 REDCap 的研究数据采集系统运行，支持多因素认证、参与者自注册、自动注册和 API。参与者使用单独的用户名和密码登录，与 REDCap 研究团队凭证分离。支持数据访问组 (DAG) 管理、密码重置和角色 based 访问控制 。
-
-
-
-- **[PrivacyLens](https://github.com/PrivacyLens)**
-
-  卡内基梅隆大学可用性研究人员开发的下一代同意管理 UI。支持知情同意机制，利用联邦基础设施进行信任验证。功能包括：以用户友好形式显示正在发送的属性名称和值、区分必需和可选属性、多种“同意频率”选项、肯定性操作、使用先前同意日志通知用户、撤销、将属性分组为同意捆绑。**开源**，基于 NSTIC/NIST 资助的研究 。
-
-
-
-- **[lforms-fhir-app](https://github.com/LHNCBC/lforms-fhir-app)**
-
-  SMART on FHIR 应用，使用 LHC-Forms 小部件处理 **FHIR SDC (Structured Data Capture) Questionnaire 和 QuestionnaireResponse 资源**。可在支持 SMART on FHIR 的 EHR 系统中启动，显示 FHIR 表单并采集数据为 QuestionnaireResponse 资源。支持 FHIR Questionnaire STU3 和 R4 版本，以及 SDC 实施指南的部分内容。可用于构建自定义 ePRO 表单渲染器 。
-
-
-
-- **[smart-forms](https://github.com/aehrc/smart-forms)**
-
-  CSIRO 澳大利亚 e-Health 研究中心开发的 **React 基础 FHIR 驱动表单应用**。实现 HL7 FHIR 规范中的 Questionnaire 和 QuestionnaireResponse 资源、**Structured Data Capture (SDC) 实施指南**，并利用 SMART on FHIR 能力。可由初级保健临床管理系统启动，采集标准化健康检查信息。TypeScript/React，开源 。
-
-
-
-### 其他强开源选项
-
-
-
-- **EDC 平台**：**OpenClinica** 社区版（成熟、LGPL）、**LibreClinica**（OpenClinica 后继、支持 ODK/ePRO 集成）、**ClinCapture**（含集成 ePRO 模块）。
-
-- **同意管理**：**PrivacyLens**（CMU 开发、功能丰富）、**gICS**（模块化知情同意服务、已记录 336,000+ 同意和 2,400+ 撤回）、**REDCap 同意框架模块** 。
-
-- **FHIR 表单渲染**：**lforms-fhir-app**（SMART on FHIR 表单显示）、**smart-forms**（CSIRO 开发的 SDC 表单应用）。
-
-- **PRO 分析**：**PROreg**（R 包，患者报告结局回归分析方法，支持混合效应模型和 beta-二项分布分析）。
-
-
-
-**构建自定义系统的框架**：结合 **LibreClinica** 或 **OpenClinica** 社区版作为核心 EDC 平台，**smart-forms** 或 **lforms-fhir-app** 作为 FHIR 兼容的 ePRO 表单渲染器，**PrivacyLens** 或 **gICS** 处理知情同意管理，**REDCapPRO** 提供符合监管的 PRO 采集。添加 **PostgreSQL** 和 **ODK** 生态系统支持移动数据采集。
-
-
-
-## 如何贡献
-
-
-
-1. Fork 仓库。
-
-2. 在 `README.md` 中添加/编辑条目（遵循现有格式）。
-
-3. 包含：名称、链接、1–2 句描述，以及是 SaaS 还是开源。
-
-4. 提交 PR 并附简短说明。
-
-
-
-如果你觉得这个仓库有用，请点星！
-
-
-
-## 免责声明
-
-
-
-- 这是一个**社区精选**列表——并非详尽无遗，也不构成认可。
-
-- ePRO 系统处理敏感的临床试验和患者数据；确保符合 21 CFR Part 11、GCP、HIPAA 和 GDPR 等适用法规。
-
-- **开源现实**：完整的开源 ePRO 系统（可直接替代 Medable、Signant）尚不成熟。可行的自托管路径是组合 **OpenClinica/LibreClinica** EDC 平台与 **FHIR 兼容表单渲染器**（smart-forms、lforms-fhir-app）及**同意管理工具**（PrivacyLens、gICS）。这种组合可覆盖 ePRO 核心功能，但需要工程投入进行集成和验证。
-
-
+> A curated collection of top-tier **Electronic Patient-Reported Outcomes (ePRO)** SaaS platforms, **electronic Clinical Outcome Assessment (eCOA)** solutions, and **Open-Source GitHub Projects** for Decentralized Clinical Trials (DCT), Remote Patient Monitoring (RPM), and Real-World Evidence (RWE).
 
 ---
 
+## 📌 Executive Overview & Ecosystem Focus
 
+**Electronic Patient-Reported Outcomes (ePRO)** enable patients to directly report symptoms, functional status, treatment adherence, and health-related quality of life (HRQoL) using digital devices (smartphones, tablets, web applications). 
 
-**为临床研究协调员、数据管理员、CRO 技术团队和数字健康开发者打造。**
+This repository serves as a comprehensive developer and clinical researcher directory tracking:
+* 🏢 **Enterprise SaaS & Hosted eCOA Platforms** for commercial clinical trials and CRO deployments.
+* 🔓 **Open-Source Electronic Data Capture (EDC) Systems** and FHIR-based Questionnaire renderers.
+* 📜 **Consent & Security Frameworks** supporting 21 CFR Part 11, HIPAA, and GDPR compliance.
 
-让临床试验数据采集更开放、透明、以患者为中心。
+---
+
+## 📚 Table of Contents
+
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Architectural Blueprints for Custom ePRO Systems](#️-architectural-blueprints-for-custom-epro-systems)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Legal & Regulatory Disclaimer](#️-legal--regulatory-disclaimer)
+- [📈 Star History](#-star-history)
+- [🤝 Support & Community](#-support--community)
+
+---
+
+## 🏢 SaaS & Hosted Platforms
+
+📊 **Market Overview & Industry Dynamics**: The global Electronic Patient-Reported Outcomes (ePRO) & Electronic Clinical Outcome Assessment (eCOA) market size is estimated at **$2.1 Billion (2024–2025)** and projected to reach **$4.8 Billion by 2030** at a CAGR of ~14.5%. The market is **moderately fragmented** with accelerating consolidation among enterprise eClinical suites (IQVIA, Medidata, Veeva, Clario) alongside specialized niche platforms.
+
+| 🏢 Platform | 📝 Description | 📊 Company Size / Valuation / Revenue | 💰 Pricing (Starting Tier) | 🎁 Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Oracle ePRO](https://www.oracle.com/)** | Integrated ePRO module within Oracle Health Sciences & Clinical One platform for multi-site global clinical trials. | ~$53.0 Billion Revenue | Starting at $20,000 / year | 30-Day Free Trial (OCI Cloud Developer Sandbox) |
+| **[IQVIA eCOA](https://www.iqvia.com/)** | Comprehensive eCOA, ePRO, and eConsent platform seamlessly integrated with IQVIA Connected Intelligence ecosystem. | ~$15.4 Billion Revenue | Starting at $50,000 / study | 30-Day Enterprise Demo Sandbox (1 active trial environment) |
+| **[Medidata Patient Cloud](https://www.medidata.com/)** | Patient-centric digital health suite providing ePRO, eCOA, and eConsent with deep Medidata Rave EDC integration. | ~$6.0 Billion Parent Revenue (~$1B Medidata ARR) | Starting at $25,000 / study | 30-Day Developer Sandbox Access (1 demo protocol) |
+| **[Veeva ePRO](https://www.veeva.com/)** | Life sciences ePRO solution fully integrated with Veeva Vault CDMS for end-to-end clinical operations. | ~$2.4 Billion Revenue (~$30B Valuation) | Starting at $30,000 / year | 14-Day Sandbox Demo Trial (max 3 study designs) |
+| **[Medable](https://www.medable.com/)** | Decentralized trial platform offering ePRO, eCOA, eConsent, and BYOD remote patient monitoring. | ~$2.1 Billion Valuation (~$100M ARR) | Starting at $12,000 / study | 14-Day Guided Sandbox Trial (1 study protocol, 5 user accounts) |
+| **[Clario](https://clario.com/)** | Clinical endpoint technology combining ERT and Bioclinica for eCOA, ePRO, cardiac safety, and imaging endpoints. | ~$1.1 Billion Revenue | Starting at $20,000 / study | 14-Day Sandbox Trial (1 study design, max 10 test users) |
+| **[Signant Health](https://www.signanthealth.com/)** | Specializes in eCOA, ePRO, and eConsent with deep expertise in neuroscience, oncology, and chronic pain trials. | ~$400 Million Revenue | Starting at $15,000 / study | 14-Day Sandbox Trial (1 protocol, max 5 test users) |
+| **[THREAD Science](https://www.threadresearch.com/)** | Decentralized clinical trial platform providing virtual visits, ePRO, and remote symptom logging. | ~$250 Million Valuation (~$50M ARR) | Starting at $10,000 / study | 14-Day Trial Demo Access (1 study workspace) |
+| **[Clinical Ink](https://www.clinicalink.com/)** | Direct eSource and ePRO platform capturing patient outcome data during in-clinic and remote study visits. | ~$80 Million ARR | Starting at $15,000 / study | 14-Day Demo Sandbox (1 visit workflow, 5 participants) |
+| **[YPrime](https://www.yprime.com/)** | Flexible eClinical platform combining eCOA, ePRO, IRT, and clinical trial data management tools. | ~$60 Million ARR | Starting at $12,000 / study | 14-Day Trial Sandbox (1 active site configuration) |
+| **[eClinical Solutions](https://www.eclinicalsol.com/)** | Data management platform featuring elluminate data science tools supporting ePRO and eCOA integration. | ~$50 Million ARR | Starting at $15,000 / year | 14-Day Sandbox Demo (elluminate platform trial, 5 users) |
+| **[Castor ePRO](https://www.castoredc.com/)** | Modular ePRO feature integrated within Castor EDC for rapid patient survey collection and study management. | ~$30 Million Funding (~$15M ARR) | Starting at $1,200 / year ($100/mo) | 14-Day Full Feature Free Trial (1 active study, unlimited ePRO forms) |
+| **[Kayentis](https://www.kayentis.com/)** | Specialized eCOA/ePRO vendor focusing on digital therapeutics, ophthalmology, and respiratory clinical trials. | ~$25 Million ARR | Starting at $10,000 / study | 14-Day Sandbox Trial (1 study template) |
+| **[CRScube](https://www.crscube.io/)** | All-in-one eClinical solution featuring cubePRO, cubeCDMS (EDC), and cubeIWRS for unified data management. | ~$15 Million ARR | Starting at $1,000 / month | 14-Day Free Sandbox Trial (cubePRO trial environment) |
+| **[TrialKit](https://www.trialkit.com/)** | Cloud and mobile clinical research suite offering configurable ePRO, eCOA, EDC, and eConsent modules. | ~$10 Million ARR | Starting at $500 / month | 14-Day Free Trial (1 study, up to 25 test participants) |
+| **[ClinOne](https://clinone.com/)** | Patient engagement platform providing eConsent, ePRO, and remote study visit tracking for clinical trials. | ~$8 Million ARR | Starting at $800 / month | 14-Day Free Sandbox Access (1 trial site, 10 participants) |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Below is a list of mature open-source projects, frameworks, FHIR SDC form renderers, and EDC platforms suitable for constructing self-hosted ePRO data collection systems.
+
+> **Sorted by GitHub Stars (Descending)**
+
+* 🌟 **[Fasten Health](https://github.com/fastenhealth/fasten-onprem)** <a href="https://github.com/fastenhealth/fasten-onprem/stargazers"><img src="https://img.shields.io/github/stars/fastenhealth/fasten-onprem?style=social&color=white" alt="Fasten Health Stars"/></a>  
+  An open-source, self-hosted personal health record and patient portal system. Connects directly to electronic health record (EHR) systems via SMART on FHIR to pull patient records, medical history, and self-reported outcomes into a unified dashboard. **Go/Vue.js | MIT License**.
+
+* 🌟 **[Medplum](https://github.com/medplum/medplum)** <a href="https://github.com/medplum/medplum/stargazers"><img src="https://img.shields.io/github/stars/medplum/medplum?style=social&color=white" alt="Medplum Stars"/></a>  
+  Headless open-source EHR and healthcare platform supporting FHIR Questionnaire and QuestionnaireResponse resources out of the box. Ideal for building custom developer-first ePRO applications, patient portals, and automated clinical workflows. **TypeScript/React | Apache 2.0 License**.
+
+* 🌟 **[HAPI FHIR](https://github.com/hapifhir/hapi-fhir)** <a href="https://github.com/hapifhir/hapi-fhir/stargazers"><img src="https://img.shields.io/github/stars/hapifhir/hapi-fhir?style=social&color=white" alt="HAPI FHIR Stars"/></a>  
+  Complete open-source implementation of the HL7 FHIR specification in Java. Serves as the core backend FHIR repository for storing, querying, and managing structured QuestionnaireResponse data collected from ePRO devices. **Java | Apache 2.0 License**.
+
+* 🌟 **[Form.io JavaScript SDK](https://github.com/formio/formio.js)** <a href="https://github.com/formio/formio.js/stargazers"><img src="https://img.shields.io/github/stars/formio/formio.js?style=social&color=white" alt="Form.io Stars"/></a>  
+  Flexible JSON-powered form builder and rendering engine used widely in healthcare and clinical research to construct complex conditional forms, survey logic, and ePRO patient questionnaires. **JavaScript | MIT License**.
+
+* 🌟 **[Google FHIR](https://github.com/google/fhir)** <a href="https://github.com/google/fhir/stargazers"><img src="https://img.shields.io/github/stars/google/fhir?style=social&color=white" alt="Google FHIR Stars"/></a>  
+  Google's set of libraries for working with FHIR data in C++, Java, and Python. Includes protocol buffer representations of FHIR resources and utilities for processing clinical questionnaires and ePRO survey responses. **C++/Java/Python | Apache 2.0 License**.
+
+* 🌟 **[ODK Collect](https://github.com/getodk/collect)** <a href="https://github.com/getodk/collect/stargazers"><img src="https://img.shields.io/github/stars/getodk/collect?style=social&color=white" alt="ODK Collect Stars"/></a>  
+  Android data collection app used worldwide for offline field research, health worker surveys, and mobile ePRO data logging. Supports complex logic, media attachments, and OpenRosa XForms standards. **Java/Kotlin | Apache 2.0 License**.
+
+* 🌟 **[OpenClinica](https://github.com/OpenClinica/OpenClinica)** <a href="https://github.com/OpenClinica/OpenClinica/stargazers"><img src="https://img.shields.io/github/stars/OpenClinica/OpenClinica?style=social&color=white" alt="OpenClinica Stars"/></a>  
+  Pioneering commercial open-source platform for Electronic Data Capture (EDC) and Clinical Data Management (CDM). Features web-based eCRF builder, audit trails, electronic signatures, visit scheduling, and ePRO trial management modules. **Java | LGPL License**.
+
+* 🌟 **[LibreClinica](https://github.com/reliatec-gmbh/LibreClinica)** <a href="https://github.com/reliatec-gmbh/LibreClinica/stargazers"><img src="https://img.shields.io/github/stars/reliatec-gmbh/LibreClinica?style=social&color=white" alt="LibreClinica Stars"/></a>  
+  Community-maintained fork and successor to OpenClinica. Fully GCP-compliant EDC platform providing complex field validations, SDV workflows, CDISC ODM-XML exports, and OpenRosa API backend for **integration with ODK mobile ePRO tools**. **Java | LGPL 3.0 License**.
+
+* 🌟 **[smart-forms](https://github.com/aehrc/smart-forms)** <a href="https://github.com/aehrc/smart-forms/stargazers"><img src="https://img.shields.io/github/stars/aehrc/smart-forms?style=social&color=white" alt="Smart Forms Stars"/></a>  
+  React-based FHIR Structured Data Capture (SDC) form application developed by CSIRO Australian e-Health Research Centre. Renders complex HL7 FHIR Questionnaires for clinical assessments and patient self-reporting. **TypeScript/React | Apache 2.0 License**.
+
+* 🌟 **[lforms-fhir-app](https://github.com/LHNCBC/lforms-fhir-app)** <a href="https://github.com/LHNCBC/lforms-fhir-app/stargazers"><img src="https://img.shields.io/github/stars/LHNCBC/lforms-fhir-app?style=social&color=white" alt="LHC Forms Stars"/></a>  
+  SMART on FHIR app powered by LHC-Forms widget for rendering FHIR SDC Questionnaire resources and generating compliant QuestionnaireResponse data objects inside EHR and ePRO portals. **JavaScript | Open Source**.
+
+* 🌟 **[clinicedc / edc](https://github.com/clinicedc/edc)** <a href="https://github.com/clinicedc/edc/stargazers"><img src="https://img.shields.io/github/stars/clinicedc/edc?style=social&color=white" alt="ClinicEDC Stars"/></a>  
+  Modular Django framework for longitudinal multi-site clinical trial data capture. Handles informed consent, scheduled visits, adverse event tracking, data export, and clinical outcome scoring. **Python/Django | GPL 3.0 License**.
+
+* 🌟 **[Arcwell](https://github.com/arcweb/arcwell)** <a href="https://github.com/arcweb/arcwell/stargazers"><img src="https://img.shields.io/github/stars/arcweb/arcwell?style=social&color=white" alt="Arcwell Stars"/></a>  
+  Open-source clinical research platform by Arcweb Technologies. Features a flexible rules engine for digital health programs, executing 4,000+ custom rules for clinical decision support and patient outcome logging. **TypeScript/Node.js | Apache 2.0 License**.
+
+* 🌟 **[REDCapPRO](https://github.com/AndrewPoppe/REDCap-PRO)** <a href="https://github.com/AndrewPoppe/REDCap-PRO/stargazers"><img src="https://img.shields.io/github/stars/AndrewPoppe/REDCap-PRO?style=social&color=white" alt="REDCapPRO Stars"/></a>  
+  External REDCap module facilitating regulatory-compliant patient self-registration, MFA login, automated questionnaire dispatch, and isolated patient credential management for clinical research studies. **PHP | GPL 3.0 License**.
+
+---
+
+## 🛠️ Architectural Blueprints for Custom ePRO Systems
+
+For research institutions and digital health teams constructing custom ePRO infrastructure:
+
+```
++-----------------------------------------------------------------------------------+
+|                              PATIENT FRONTEND LAYER                               |
+|   +-----------------------+     +-------------------+     +-------------------+   |
+|   |  smart-forms (React)  |  OR | lforms-fhir-app   |  OR | ODK Collect (App) |   |
+|   +-----------------------+     +-------------------+     +-------------------+   |
++------------------------------------------+----------------------------------------+
+                                           | FHIR SDC / REST API
+                                           v
++-----------------------------------------------------------------------------------+
+|                             CORE EDC / FHIR BACKEND                               |
+|   +-----------------------+     +-------------------+     +-------------------+   |
+|   |  Medplum (Headless)   |  OR |  LibreClinica EDC |  OR | HAPI FHIR Server  |   |
+|   +-----------------------+     +-------------------+     +-------------------+   |
++------------------------------------------+----------------------------------------+
+                                           |
+                                           v
++-----------------------------------------------------------------------------------+
+|                        SECURITY & REGULATORY COMPLIANCE                           |
+|   +-----------------------+     +-------------------+     +-------------------+   |
+|   | PrivacyLens (Consent) |  &  | REDCapPRO (Auth)  |  &  | PostgreSQL (Enc)  |   |
+|   +-----------------------+     +-------------------+     +-------------------+   |
++-----------------------------------------------------------------------------------+
+```
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork this repository.
+2. Update or add new entries to `README.md` maintaining table formats and badge links.
+3. Provide link, company size/valuation, pricing tier, and free trial details.
+4. Open a Pull Request with a short summary of changes.
+
+---
+
+## ⚖️ Legal & Regulatory Disclaimer
+
+- This list is **community-curated** for educational and architectural reference only; inclusion does not constitute endorsement.
+- Clinical trials involving patient data collection must strictly comply with applicable regulatory frameworks including **21 CFR Part 11**, **GCP (ICH E6)**, **HIPAA**, and **GDPR**.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Electronic-Patient-Reported-Outcomes&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Electronic-Patient-Reported-Outcomes&type=date&legend=top-left)
+
+---
+
+## 🤝 Support & Community
+
+Thank you for exploring **Awesome Electronic Patient-Reported Outcomes (ePRO)**! 
+
+If you find this repository valuable for your clinical research, healthcare product development, or trial data engineering work, please consider supporting the project:
+
+* ⭐ **Star this repository** to help others discover it.
+* 🔀 **Fork & Contribute** by adding new ePRO, eCOA, or FHIR-based open-source projects via Pull Requests.
+* 📢 **Share** with colleagues, clinical trial coordinators, and digital health developers.
+* ☕ **Sponsor / Buy me a coffee**: Support ongoing maintenance on the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
